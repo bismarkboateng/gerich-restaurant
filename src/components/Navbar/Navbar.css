@@ -58,13 +58,22 @@
     background: var(--color-black);
 
     transition: 0.5s ease;
+/* 
+    transition: 0.5s ease; */
 }
 
 
-.app__navbar-smallscreen {
+/* .app__navbar-smallscreen {
     transition: 0.5s ease;
-}
+} */
 
+
+.app__navbar-smallscreen-close_icon {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 30px;
+}
 .app__navbar-smallscreen_overlay div ul {
     text-align: center;
     padding: 1rem;
@@ -83,34 +92,67 @@
 }
 
 .app__navbar-smallscreen-links ul {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 27px;
     
 }
-/* 
-@media screen and (max-width: 2000px) {
+
+.app__navbar-smallscreen {
+    transition: 0.5s ease;
+}
+
+.app__navbar-smallscreen-links ul li:hover {
+    color: var(--color-grey);
+}
+
+.overlay__close {
+    color: var(--color-golden);
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.hamburger__menu {
+    font-size: 29px;
+    color: var(--color-golden); 
+}
+
+
+
+
+
+
+@media screen and (min-width: 1150px) {
     .app__navbar-smallscreen {
         display: none;
     }
-}
+
+    .app__navbar-img img {
+        width: 110px;
+    }
+
+} 
 
 
 
-@media screen and (max-width: 2000px) {
-    .app__navbar-smallscreen {
+@media screen and (max-width: 1150px) {
+    .app__navbar-links_registerLogin {
         display: none;
     }
 }
 
 
 @media screen and (max-width: 650px) {
-
     .app__navbar-links {
-        /* display: none; */
-    /* }
+        display: none;
+    }
 
     .app__navbar-links_registerLogin {
         display: none;
     }
-} */ 
+
+} 

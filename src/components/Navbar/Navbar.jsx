@@ -33,11 +33,15 @@ const Navbar = () => {
       </div>
 
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu onClick={() => setToggleMenu(true)}/>
+        <GiHamburgerMenu className="hamburger__menu" onClick={() => setToggleMenu(true)}/>
 
         {toggleMenu && 
          <div className="app__navbar-smallscreen_overlay">
-          <MdOutlineRestaurantMenu onClick={() => setToggleMenu(false)}/>
+
+          <div className="app__navbar-smallscreen-close_icon">
+               <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)}/>
+          </div>
+
           <div className="app__navbar-smallscreen-links">
             <ul>
               <li><a href="#home">Home</a></li>
