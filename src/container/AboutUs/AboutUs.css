@@ -1,0 +1,95 @@
+.app__aboutus-icon img {
+    position: absolute;
+    left: 38%;
+    top: 135%;
+    z-index: 0;
+    width: 400px;
+}
+
+.app__aboutus-history,
+.app__aboutus-image,
+.app__aboutus-content {
+    z-index: 2;
+}
+
+.app__aboutus-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.app__aboutus-content h5,
+.app__aboutus-history h5{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 60px;
+    font-weight: 600;
+    /* margin: 0 3rem 0.5rem 0; */
+}
+
+.app__aboutus-content {
+    margin-right: 5rem;
+}
+
+.app__aboutus-history {
+    margin-left: 5rem;
+}
+
+.app__aboutus-content-p{
+    margin: 3rem 0 3rem 0;
+}
+
+.app__aboutus-content button ,
+.app__aboutus-history button {
+    padding: 1rem 2rem;
+    font-family: var(--font-base);
+    font-size: 20px;
+    margin-top: 2.5rem;
+}
+
+.app__aboutus-content .app__subheading img,
+.app__aboutus-history .app__subheading img {
+    margin-top: 1rem;
+}
+
+.app__aboutus-image img {
+    object-fit: cover;
+    height: 910px;
+}
+
+.app__aboutus-image {
+    margin-top: 1rem;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .app__aboutus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .app__aboutus-icon img {
+        position: absolute;
+        top: 230%;
+        left: 25%;
+        width: 50%;
+    }
+
+    .app__aboutus-content .app__subheading {
+        margin: 2rem 0 2rem 5rem;
+    }
+
+    .app__aboutus-content-p {
+        margin-left: 4rem;
+    }
+
+    .app__aboutus-content button {
+        margin-top: 1.5rem;
+    }
+
+
+}

@@ -3,7 +3,7 @@ import { images } from '../../constants';
 
 const SubHeading = ({ text }) => (
   <div className="app__subheading">
-    <p className="p__cormorant"> { text } </p>
+    <h5 className="p__opensans"> { text } </h5>
     <img src={images.spoon} alt="spoon image" />
   </div>
 );
