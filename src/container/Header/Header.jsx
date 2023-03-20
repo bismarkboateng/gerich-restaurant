@@ -5,7 +5,7 @@ import { images } from '../../constants';
 import './Header.css';
 
 const Header = () => (
-  <div className="app__header">
+  <div className="app__header app__wrapper section__padding">
     <div className="app__header-content">
       <SubHeading text="Chase The New Flavour" />
       <h1 className="app__header-content_h1">
@@ -22,7 +22,7 @@ const Header = () => (
       <button type="submit">Explore Menu</button>
     </div>
 
-    <div className="app__header-img">
+    <div className="app__wrapper_img">
       <img src={images.welcome} alt="welcome image" />
     </div>
 
