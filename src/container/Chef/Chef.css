@@ -1,0 +1,107 @@
+.app__chef {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.app__chef-img {
+    margin-top: 5rem;
+}
+
+.app__chef-content {
+    margin-top: 5rem;
+}
+
+
+.app__chef-img img {
+    width: 700px;
+}
+
+.app__chef-content {
+    margin-left: 6rem;
+}
+
+.app__chef-content .app__subheading  {
+    margin: 6rem 0 2rem 0;
+}
+
+.app__chef-content h1 {
+    margin-bottom: 3rem;    
+}
+
+.app__chef-content  img {
+    width: 50px;
+}
+
+.app__chef-content p {
+    margin-bottom: 0.5rem;
+}
+
+
+.app__chef-content p {
+    color: var(--color-white);
+    line-height: 20px;
+}
+
+.app__chef-signature {
+    width: 70px;
+}
+
+.app__chef-content p:nth-child(2n) {
+    margin-bottom: 3rem;
+}
+
+.app__chef-content__details img {
+    width: 400px;
+}
+
+.app__chef-content__details p:first-child {
+    color: var(--color-golden);
+    font-family: var(--font-base);
+}
+
+
+@media screen and (max-width: 1150px) {
+    .app__chef {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .app__chef-img {
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    .app__chef-content {
+        margin: auto;
+        margin-top: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__chef {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .app__chef-img {
+        width: 100%;
+    }
+    .app__chef-img img {
+        width: 350px;
+        object-fit: cover;
+    }
+
+    .app__chef-content__details img {
+        width: 250px;
+    }
+
+    .app__chef-content {
+        margin: 0 2rem 2rem 2rem;
+    }
+}
