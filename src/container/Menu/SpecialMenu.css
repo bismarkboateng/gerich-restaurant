@@ -1,0 +1,128 @@
+.app__specialMenu {
+    border: 1px solid black;
+    background: var(--color-black);
+}
+
+.app__specialMenu-groupA {
+    margin-top: 5rem;
+}
+
+.app__specialMenu-groupA .app__subheading img {
+    margin-left: 5rem;
+}
+
+.app__specialMenu-groupA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__specialMenu-groupB {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 4rem;
+}
+
+
+.app__specialMenu-groupB-middle img {
+    width: 600px;
+    object-fit: cover;
+} 
+
+.app__specialMenu-menuitem_content div {
+    background: var(--color-golden);
+    width: 70%;
+    height: 1px;
+}
+
+.app__specialMenu-menuitem_content  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-white);
+}
+
+.app__specialMenu-menuitem_content p {
+    margin-left: 0.5rem;
+}
+
+.app__specialMenu-menuitem_content p:first-child {
+    color: var(--color-golden);
+    font-family: var(--font-base);
+}
+
+
+.app__specialMenu-groupB_left {
+    margin-right: 6rem;
+}
+
+.app__specialMenu-tags {
+    color: var(--color-grey);
+    margin: 1rem 0 1rem 0;
+}
+
+.app__specialMenu-head {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.app__specialMenu-btn {
+    margin: auto;
+    width: max-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__specialMenu-groupB {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .app__specialMenu-groupB-middle img {
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 2rem;
+    }   
+
+    .app__specialMenu-groupB_left {
+        margin-left: 4rem;
+    }
+
+    .app__specialMenu-groupB-right {
+        margin-left: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    .app__specialMenu-groupB {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .app__specialMenu-head {
+        font-size: 80px;
+    }
+
+    .app__specialMenu-groupB-middle img {
+        margin-bottom: 2rem;
+    }
+
+    .app__sepcialMenu-title {
+        font-size: 40px;
+    }
+
+}

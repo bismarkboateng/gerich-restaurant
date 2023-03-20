@@ -13,7 +13,7 @@ const AboutUs = () => (
       Optio, Eaque Rerum! Provident Similique Accusantium Nemo Autem.<br />
       Veritatis Obcaecati Tenetur Iure Eius Earum Ut Molestias Architecto Voluptate Aliquam
       </p>
-      <button type="submit">Know More</button>
+      <button type="submit" className="custom__button">Know More</button>
     </div>
 
     <div className="app__aboutus-icon">
@@ -30,7 +30,7 @@ const AboutUs = () => (
       Optio, Eaque Rerum! Provident Similique Accusantium Nemo Autem.<br />
       Veritatis Obcaecati Tenetur Iure Eius Earum Ut Molestias Architecto Voluptate Aliquam
       </p>
-      <button type="submit">Know More</button>
+      <button type="button" className="custom__button">Know More</button>
     </div>
   </div>
 );

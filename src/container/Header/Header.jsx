@@ -12,6 +12,7 @@ const Header = () => (
         THE KEY TO A FINE <br />
         DINING
       </h1>
+
       <p className="app__header-content_p">
       Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.<br />
       Maxime Mollitia, Molestiae Quas Vel Sint Commodi <br />
@@ -19,7 +20,8 @@ const Header = () => (
       Blanditiis Harum Quisquam Eius Sed Odit Fugiat Iusto Fuga
       Praesentium
       </p>
-      <button type="submit">Explore Menu</button>
+
+      <button type="submit" className="custom__button">Explore Menu</button>
     </div>
 
     <div className="app__wrapper_img">
