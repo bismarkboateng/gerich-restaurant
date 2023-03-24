@@ -38,11 +38,11 @@ const Gallery = () => {
 
       <div className="app__gallery-ImageSlider">
         {
-          GalleryImages.map((img) => (
-            <>
+          GalleryImages.map((img, index) => (
+            <div className="app__gallery-images_card" key={`gallery_image-${index+1}`}>
               <img src={img} className="app__gallery-ImageSlider-img" alt="images" />
               <BsInstagram />
-            </>
+            </div>
 
           ))
         }

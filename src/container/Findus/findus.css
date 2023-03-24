@@ -1,0 +1,40 @@
+.app__findus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 8rem;
+    color: white;
+    font-weight: 300;
+    line-height: 25px;
+    
+    font-size: 18px;
+}
+
+
+.app__findus-img img {
+    height: 700px;
+}
+
+
+.app__findus-content {
+    margin-right: 10rem;
+}
+
+.app__findus-content h1 {
+    margin: 1.5rem 0 3rem 0;
+}
+
+.app__findus-content button {
+    margin-top: 1.5rem;
+}
+
+.p__findus {
+    color: var(--color-golden);
+    margin: 1rem 0 1rem 0;
+    font-weight: 200;
+    font-size: 23px;
+    
+    font-family: var(--font-base);
+}
