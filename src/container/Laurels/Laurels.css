@@ -1,0 +1,64 @@
+.app__laurels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.app__laurels-img img {
+    height: 800px;
+}
+/* 
+
+.app__laurels-content {
+    display: flex;
+} */
+
+
+.app__laurels-info_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin: 1.5rem 0;
+}
+
+.app__laurels-imgs img {
+    width: 80px;
+}
+
+.app__laurels-img {
+    margin: 2.5rem 0 2rem 0;
+}
+
+.app__laurels-info {
+    margin-top: 8rem;
+}
+
+.app__laurels-content {
+
+    margin-left: 0.9rem;
+}
+
+.app__laurels-content p:first-child {
+    color: var(--color-golden);
+}
+
+
+
+.app__laurels-content p:nth-child(2n) {
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+/* .p__cormorant {
+    color: var(--color-golden);
+} */
+
+.app__laurels-info_content {
+    margin-left: 1rem;
+}
+
+.app__laurels-info h1 {
+    margin: 1rem 0 1rem 0;
+}
