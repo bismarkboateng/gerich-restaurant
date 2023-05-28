@@ -3,8 +3,6 @@ import { SubHeading } from '../../components';
 import './Gallery.css';
 import { images } from '../../constants';
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
-
-
 const GalleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04];
 
 
